@@ -4,6 +4,7 @@ subtitle:            ""
 description:         ""
 url:                 http://127.0.0.1:4000
 baseurl:             ""
+repository:          https://github.com/dananjohnson/dana-v2
 typekit:             hhy2otg
 
 # About/contact
@@ -11,6 +12,9 @@ author:
   name:              Dana Johnson
   url:               http://danajohnson.co
   email:             dana@danajohnson.co
+license:
+  title:             Creative Commons CC-BY 4.0
+  url:               https://creativecommons.org/licenses/by/4.0/
 
 # Permalinks
 permalink:           pretty

@@ -1,0 +1,21 @@
+# Masthead navigation links
+
+# Site Navigation
+site-nav:
+  - title: "Work"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Notes"
+    url: /notes/
+  - title: "Bio"
+    url: /about/
+
+# Social Links
+social:
+  - title: "Github"
+    url: https://github.com/dananjohnson/
+  - title: "Instagram"
+    url: https://www.instagram.com/kittywumpus/
+  - title: "Twitter"
+    url: https://twitter.com/danajohnson_co

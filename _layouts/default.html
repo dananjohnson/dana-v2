@@ -8,11 +8,11 @@
     {% include svg-sprite.html %}
 
     <div class="content">
+      {% include site__header.html %}
       <main role="main">
-        <div class="container">
-          {{ content }}
-        </div>
+        {{ content }}
       </main>
+      {% include site__footer.html %}
     </div>
 
     {% js main %}
