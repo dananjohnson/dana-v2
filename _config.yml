@@ -60,8 +60,13 @@ exclude:
   - tmp
   - bower.json
   - s3_website.yml
-gems:
+plugins:
   - jekyll-assets
+  - jekyll-paginate
+
+# Plugin: Jekyll Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Plugin: Jekyll Assets
 assets:
