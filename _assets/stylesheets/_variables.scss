@@ -3,27 +3,27 @@
 // ===================================
 
 $palettes: (
-    light:           #FFFFFF,
-    dark:            #000000,
-    highlight:       #FF0000
+    primary:         #414021,
+    secondary:       #D6D6D1,
+    highlight:       #FFFFFF
 );
 
 $site-color-names: map-keys($palettes);
 
-$body-color: palette(dark);
-$body-bg: palette(light);
+$body-color: palette(primary);
+$body-bg: palette(secondary);
 $link-color: palette(highlight);
 
 // ===================================
 // Typography
 // ===================================
 
-$root-font-family: Helvetica, sans-serif;
-$root-font-size: 14px;
-$root-line-height: 1.5;
+$root-font-family: "source-sans-pro", Georgia, Helvetica, sans-serif;
+$root-font-size: 16px;
+$root-line-height: 1.45;
 
-$medium-font-size: 16px;
-$x-large-font-size: 18px;
+$medium-font-size: 18px;
+$x-large-font-size: 20px;
 
 // ===================================
 // Links
@@ -35,7 +35,8 @@ $link-underline-hover-opacity: 0.8;
 // ===================================
 // Layout
 // ===================================
-$container-width: 50rem;
+$container-width: 37.5rem;
+$global-margin: 1rem;
 
 // ===================================
 // Breakpoints
