@@ -19,6 +19,12 @@ collections:
 
 # Front Matter Defaults
 defaults:
+  # Posts
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
   # Pages
   - scope:
       path: _pages
