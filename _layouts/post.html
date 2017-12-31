@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-  {% include head.html %}
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post__header">
+    <h3 class="post__title" itemprop="headline">{{ page.title }}</h3>
+    <meta itemprop="author" content="{{ site.author.name }}">
+    <meta class="post__meta" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</meta>
+  </header>
+  <div class="post__body" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
 
-  <body>
-
-    {% include svg-sprite.html %}
-
-    <div class="content">
-      <main role="main">
-        <div class="container">
-          {{ content }}
-        </div>
-      </main>
-    </div>
-
-    {% js main %}
-
-  </body>
-</html>
+{% include blog__nav.html %}
