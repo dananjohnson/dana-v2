@@ -1,0 +1,36 @@
+.post {
+  margin-bottom: $global-margin * 2;
+
+  &__header {
+
+  }
+
+  &__title {
+    display: inline-block;
+    margin: 0 $global-margin / 2 0 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: $root-font-family;
+  }
+
+  &__date {
+    color: palette(highlight);
+    font-weight: 700;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $global-margin;
+    color: palette(highlight);
+    border-top: 1px solid rgba(palette(primary), 0.25);
+
+    > * {
+      flex: 1;
+    }
+  }
+}
+
+.next-post {
+  text-align: right;
+}

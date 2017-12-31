@@ -4,13 +4,13 @@ layout: default
 
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post__header">
-    <h3 class="post__title" itemprop="headline">{{ page.title }}</h3>
+    <h2 class="post__title" itemprop="headline">{{ page.title }}</h2>
     <meta itemprop="author" content="{{ site.author.name }}">
-    <meta class="post__meta" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</meta>
+    <span class="post__meta post__date" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</span>
   </header>
   <div class="post__body" itemprop="articleBody">
     {{ content }}
   </div>
 </article>
 
-{% include blog__nav.html %}
+{% include blog__postnav.html %}
