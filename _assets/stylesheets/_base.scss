@@ -37,6 +37,11 @@ body {
 
 a {
   @include text-link($color: palette(primary), $hover: palette(primary), $offset: 4px);
+
+  nav &,
+  h1 & {
+    @include reset-link;
+  }
 }
 
 img {

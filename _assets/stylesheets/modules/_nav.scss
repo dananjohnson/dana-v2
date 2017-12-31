@@ -1,0 +1,33 @@
+nav, .nav {
+  font-weight: 700;
+
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: $global-margin;
+    }
+  }
+}
+
+.nav {
+  &--site {
+
+    footer & {
+      margin-right: $global-margin;
+      float: left;
+    }
+  }
+
+  &--social {
+
+    a {
+      color: palette(highlight);
+    }
+  }
+}
