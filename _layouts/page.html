@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="page">
+  <header class="page__header">
+    <h2 class="page__title">{{ page.title }}</h2>
+  </header>
+  <section class="page__body">
+    {{ content }}
+  </section>
+</article>
+
+{% include page__structured-data.html link=page.url %}

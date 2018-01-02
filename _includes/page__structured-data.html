@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{ "@context": "http://schema.org",
+ "@type": "WebSite",
+ "name": "{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}",
+ "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}",
+ "keywords": "design development front-end typography UI",
+ "url": "{{ site.url }}",
+ "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}"
+  },
+ "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "sameAs": [
+      {% for item in site.data.links.social %}
+        {{ item.url | jsonify }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+ }
+</script>

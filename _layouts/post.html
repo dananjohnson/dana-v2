@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="post">
   <header class="post__header">
-    <h2 class="post__title" itemprop="headline">{{ page.title }}</h2>
-    <meta itemprop="author" content="{{ site.author.name }}">
-    <span class="post__meta post__date" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</span>
+    <h2 class="post__title">{{ page.title }}</h2>
+    <span class="post__meta post__date">{{ page.date | date: "%B %d, %Y" }}</span>
   </header>
-  <div class="post__body" itemprop="articleBody">
+  <section class="post__body">
     {{ content }}
-  </div>
+  </section>
 </article>
 
 {% include blog__postnav.html %}
+
+{% include blog__structured-data.html headline=page.title description=page.excerpt content=page.content link=page.url date=page.date %}

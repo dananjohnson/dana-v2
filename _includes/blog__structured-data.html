@@ -1,0 +1,45 @@
+{% assign wordcount = include.content | number_of_words %}
+
+<script type="application/ld+json">
+{
+   "@context":"http://schema.org",
+   "@type":"BlogPosting",
+   "headline":"{{ include.headline }}",
+   "description": "{{ include.description | strip_html | strip_newlines }}",
+   "wordCount":"{{ wordcount }}",
+   "url":"{{ site.url }}{{ include.link }}",
+   "datePublished":"{{ include.date | date: '%Y-%m-%d' }}",
+   "author":{
+      "@type":"Person",
+      "name":"{{ site.author.name }}",
+      "sameAs":[
+        {% for item in site.data.links.social %}
+          {{ item.url | jsonify }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+   },
+   "publisher":{
+      "@type":"Organization",
+      "name":"{{ site.author.name }}"
+      // TODO add logo
+      // "logo": {
+  		// "@type": "ImageObject",
+  		// "contentUrl": "https://pauldambra.github.io/images/logo.png",
+  		//   "url": "https://pauldambra.github.io"
+      // }
+   },
+   // TODO add post image
+   // "image":{
+   //    "@type":"ImageObject",
+   //    "contentUrl":"https://pauldambra.github.io/images/cardboard.jpg",
+   //    "url":"https://pauldambra.github.io",
+   //    "height":"450",
+   //    "width":"1000"
+   // }
+   "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"{{ site.url }}{{ include.link }}"
+   },
+   "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+}
+</script>

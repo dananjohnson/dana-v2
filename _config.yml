@@ -35,7 +35,7 @@ defaults:
       path: _pages
       type: pages
     values:
-      layout: default
+      layout: page
 
 # Custom vars
 version:             0.0.1
