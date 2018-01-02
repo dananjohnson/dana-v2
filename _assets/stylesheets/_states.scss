@@ -1,0 +1,11 @@
+// ===================================
+// Styles for Object States
+// ===================================
+
+.active {
+  color: palette(highlight);
+}
+
+.inactive {
+  color: rgba(palette(primary), 0.25);
+}

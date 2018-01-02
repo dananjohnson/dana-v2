@@ -3,8 +3,11 @@
 @import "variables";
 @import "base";
 @import "typography";
+@import "states";
 @import "layout";
 
 @import "modules/nav";
+@import "modules/pagination";
 @import "modules/post";
+@import "modules/index";
 @import "modules/syntax";

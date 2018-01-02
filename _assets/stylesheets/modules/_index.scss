@@ -1,0 +1,19 @@
+// ===================================
+// Blog/Collection Index Styles
+// ===================================
+
+.index {
+
+  a {
+    @include reset-link;
+  }
+
+  .post {
+    margin-bottom: $global-margin;
+  }
+
+  &__title {
+    margin-bottom: $global-margin;
+    font-size: 1.563rem;
+  }
+}
