@@ -1,0 +1,24 @@
+// ===================================
+// Styles for Micro.blog post feed
+// ===================================
+
+.microblog {
+
+  &_timeline {
+
+  }
+
+  &_post {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_text {
+  }
+
+  &_time {
+    order: -1;
+    color: palette(highlight);
+    font-weight: 700;
+  }
+}
