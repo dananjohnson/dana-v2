@@ -2,8 +2,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% include head__metadata.html %}
+  {% include head__favicon.html %}
+  <link rel="alternate" title="Blog JSON Feed" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">
   {% css main %}
-  {% include head__favicon.html %}
-  {% comment %}insert Typekit, GA scripts here{% endcomment %}
 </head>
