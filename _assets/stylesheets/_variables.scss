@@ -41,6 +41,13 @@ $container-width: 37.5rem;
 $global-margin: 1rem;
 
 // ===================================
+// Borders/Rules
+// ===================================
+$border-thickness: 1px;
+$border-color: rgba(palette(primary), 0.25);
+$border-padding: $global-margin;
+
+// ===================================
 // Breakpoints
 // ===================================
 $medium: 44em;

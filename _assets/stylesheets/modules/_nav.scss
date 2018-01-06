@@ -2,6 +2,7 @@ nav, .nav {
   font-weight: 700;
 
   ul {
+    margin-bottom: $global-margin / 2;
     padding-left: 0;
     list-style-type: none;
   }

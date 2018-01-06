@@ -13,12 +13,12 @@
   }
 
   .project:not(:last-of-type) {
-    padding-bottom: $global-margin;
-    border-bottom: 1px solid rgba(palette(primary), 0.25);
+    padding-bottom: $border-padding;
+    border-bottom: $border-thickness solid $border-color;
   }
 
   &__title {
     margin-bottom: $global-margin;
-    font-size: 1.563rem;
+    font-size: 1.25rem;
   }
 }
