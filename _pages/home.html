@@ -6,7 +6,12 @@ permalink: /
 <p>Lucas ipsum dolor sit amet binks mon darth darth darth solo kenobi sidious padmé anakin. Vader ben jango antilles tusken raider sidious tatooine tatooine wedge. Solo dooku gamorrean kessel kenobi calrissian skywalker maul. Jabba skywalker wedge skywalker. Dooku yavin chewbacca yavin secura maul. Kessel darth darth antilles tatooine. Mandalorians hutt ben yavin mon yoda darth solo. Dagobah darth watto jango ventress jinn. Organa mothma ackbar thrawn luke secura calamari owen. Dooku leia c-3po thrawn yoda biggs jabba.</p>
 
 <section class="index">
+  <h2 class="index__title">Projects</h2>
+  {% include project__index.html %}
+</section>
+
+<section class="index">
   <h2 class="index__title">Blog</h2>
   {% include blog__index--latest.html %}
-  <a href="{{ site.baseurl }}{% link blog/index.html %}" title="View all blog posts">View all</a>
+  <a href="{{ site.baseurl }}{% link blog/index.html %}" title="View all blog posts" class="index__link">View all</a>
 </section>

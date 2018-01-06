@@ -1,0 +1,7 @@
+<header class="project__header">
+  <a href="{{ project.url }}" title="{{ project.title }}"><h2 class="project__title">{{ project.title }}</h2></a>
+  {% if project.client %}<span class="project__meta">{{ project.client }}</span>{% endif %}
+  {% if project.excerpt %}<p class="project__summary">{{ project.excerpt }}</p>{% endif %}
+  <a href="{{ project.url }}" title="{{ project.title }}" class="index__link">View project</a>
+  {% img '{{ project.image }}' alt:'{{ project.title }}' class:'project__feat-img' width:'650px' height:'375px' %}
+</header>

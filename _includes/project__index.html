@@ -1,0 +1,6 @@
+{% comment %}project loop{% endcomment %}
+{% for project in site.projects %}
+<article class="project">
+  {% include project__header.html %}
+</article>
+{% endfor %}

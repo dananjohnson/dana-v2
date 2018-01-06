@@ -4,12 +4,17 @@
 
 .index {
 
-  a {
+  a:not(.index__link) {
     @include reset-link;
   }
 
   .post {
     margin-bottom: $global-margin;
+  }
+
+  .project:not(:last-of-type) {
+    padding-bottom: $global-margin;
+    border-bottom: 1px solid rgba(palette(primary), 0.25);
   }
 
   &__title {

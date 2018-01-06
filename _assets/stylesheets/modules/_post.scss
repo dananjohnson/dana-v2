@@ -1,4 +1,4 @@
-.post {
+.post, .project {
   margin-bottom: $global-margin * 2;
 
   &__header {
@@ -13,9 +13,13 @@
     font-family: $root-font-family;
   }
 
-  &__date {
+  &__meta {
     color: palette(highlight);
     font-weight: 700;
+  }
+
+  &__summary {
+    font-style: italic;
   }
 
   &__nav {

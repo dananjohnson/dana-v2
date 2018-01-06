@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project__header">
+    <h2 class="project__title">{{ page.title }}</h2>
+    {% if page.client %}<span class="project__meta">{{ page.client }}</span>{% endif %}
+    {% if page.excerpt %}<p class="project__summary">{{ page.excerpt }}</p>{% endif %}
+    {% if page.external-link.url %}<a href="{{ page.external-link.url }}" title="{{ page.external-link.title }}" target="_blank" class="project__link">{{ page.external-link.title }}</a>{% endif%}
+  </header>
+  <section class="project__body">
+    {{ content }}
+  </section>
+</article>
+
+{% include project__structured-data.html headline=page.title description=page.excerpt image=page.image content=page.content link=page.url date=page.date %}

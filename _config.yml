@@ -7,7 +7,7 @@ baseurl:             ""
 
 # Third party
 repository:          https://github.com/dananjohnson/dana-v2
-microblog:           danajohnson
+microblog:           dana
 typekit:             hhy2otg
 
 # About/contact
@@ -24,6 +24,10 @@ permalink:           pretty
 
 # Collections
 collections:
+  projects:
+    output:          true
+    permalink:       /projects/:path/
+    title:           "Projects"
 
 # Front Matter Defaults
 defaults:
@@ -39,6 +43,12 @@ defaults:
       type: pages
     values:
       layout: page
+  # Projects
+  - scope:
+      path: _projects
+      type: projects
+    values:
+      layout: project
 
 # Custom vars
 version:             0.0.1
