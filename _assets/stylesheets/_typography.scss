@@ -2,8 +2,8 @@
 // Basic Typography
 // ===================================
 
-// 1.250 (Major Third) typographic scale
-// http://type-scale.com/?size=16&scale=1.250
+// 1.250 (Minor Third) typographic scale
+// http://type-scale.com/?size=16&scale=1.200
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1.414rem 0 1rem;
@@ -20,18 +20,18 @@ h1 {
 }
 
 h2 {
-  font-size: 1.953rem;
+  font-size: 1.728rem;
   font-weight: 700;
   font-style: italic;
   font-family: "jaf-lapture-display", serif;
 }
 
 h3 {
-  font-size: 1.563rem;
+  font-size: 1.44rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 small {
-  font-size: 0.8rem;
+  font-size: 0.833rem;
 }
 
 code {
@@ -52,6 +52,7 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: $global-margin;
+  padding-left: $global-margin;
 }
 
 dt {
