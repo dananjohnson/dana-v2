@@ -2,6 +2,7 @@
 title: Print Publications
 image: frida-awid_field-scan_2.png
 summary: I’ve worked with a number of companies, organizations, publishers, and authors over the years, designing books, journals, textbooks, and annual reports. These are some of the highlights.
+order: 3
 ---
 
 *Brave, Creative, Resilient: The Global State of Young Feminist Organizing*, FRIDA | The Young Feminist Fund and the Young Feminist Activism (YFA) Program of the Association of Women’s Rights in Development (AWID)

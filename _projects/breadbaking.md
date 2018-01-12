@@ -3,6 +3,7 @@ title: A Breadbaker’s Notebook
 image: breadbakers-notebook.png
 summary: 'One passion meets another: I’m doing an ongoing experiment with git to document the development of my bread recipes, alongside a simple cookbook-style website for the final recipes.'
 external_link: https://github.com/dananjohnson/breadbakers-notebook
+order: 2
 ---
 
 {% img 'bread-formula-log.png' alt:'The bread formula repository with commit history and branches.' width:'650px' height:'461px' %}

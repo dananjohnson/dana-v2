@@ -1,5 +1,6 @@
 {% comment %}project loop{% endcomment %}
-{% for project in site.projects %}
+{% assign sorted = (site.projects | sort: 'order') %}
+{% for project in sorted %}
 <article class="project">
   {% include project__header.html %}
 </article>
