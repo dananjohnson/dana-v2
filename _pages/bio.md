@@ -13,7 +13,9 @@ You can also find me on {% for item in site.data.links.social %}{% if forloop.la
 ---
 
 ## Projects & Collaborations
-{% for project in site.projects %}* [{{ project.title }}]({{ project.url }} "{{ project.title }}"){% endfor %}
+{% assign sorted = site.projects | sort: 'order' %}
+{% for project in sorted %}
+* [{{ project.title }}]({{ project.url }} "{{ project.title }}"){% endfor %}
 * Major redesign of the journal *Sagar* and the establishment of a coherent visual language spanning the printed publication, promotional materials, and [website](http://sagarjournal.org "Sagar Journal").
 * An [XML-based, multimedia re-release](https://quod.lib.umich.edu/cgi/t/text/text-idx?c=acls;cc=acls;view=toc;idno=heb90059.0001.001;rgn=full%20text "Grounds for Play: the Nauṭaṅkī Theatre of North India") of Hindi scholar Kathryn Hansen’s 1992 book, *Grounds for Play: the Nauṭaṅkī Theatre of North India*, for the [Humanities E-Book](http://www.humanitiesebook.org/ "Humanities E-Book") collection of the American Council of Learned Societies. The revised e-book was released in February 2015.
 * Material design for Punctum Records, plus a number of concert posters while living in Austin.
