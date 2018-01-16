@@ -9,7 +9,7 @@ order: 1
 
 {% img 'apadana_3.png' alt:'Screenshot of Legends of the Buddhist Saints website.' width:'650px' height:'679px' %}
 
-*Apadāna* is a collection of roughly 600 early Buddhist poems, composed in Pāli around the second century, B.C.E. It has always been the only part of the Pāli Canon that had never been fully translated into English. Beginning in Spring 2017, I worked with Dr. Jonathan S. Walters, with funding from Whitman College, to create an open-access digital publication of his translation of the text, entitled *Legends of the Buddhist Saints*.
+*Apadāna* is a collection of roughly 600 early Buddhist poems, composed in Pāli around the second century, B.C.E. It has always been the only part of the Pāli Canon that had never been fully translated into English. Beginning in Spring 2017, I worked with Dr. Jonathan S. Walters, with funding from Whitman College, to create an open access digital publication of his translation of the text, entitled *Legends of the Buddhist Saints*.
 
 The goals of the project were as follows: to convert the 2,000-page translation out of a word processor file and into something more durable and useable; to devise a best course of action for publishing the text online; and, to build an interface that allowed readers of differing levels to engage with the text at different levels.
 
