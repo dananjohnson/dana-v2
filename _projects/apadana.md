@@ -1,7 +1,7 @@
 ---
 title: Legends of the Buddhist Saints
 image: apadana_1.png
-client: Dr. Jonathan S. Walters & Whitman College
+year: 2017–18
 summary: I led the creation of an interactive, open-access digital publication for the first-ever translation of the Apadāna into English.
 external_link: http://beta.apadanatranslation.org/
 order: 1

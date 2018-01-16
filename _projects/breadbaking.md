@@ -1,6 +1,7 @@
 ---
 title: A Breadbaker’s Notebook
 image: breadbakers-notebook.png
+year: 2017–
 summary: 'One passion meets another: I’m doing an ongoing experiment with git to document the development of my bread recipes, alongside a simple cookbook-style website for the final recipes.'
 external_link: https://github.com/dananjohnson/breadbakers-notebook
 order: 2
