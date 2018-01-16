@@ -1,3 +1,8 @@
+// ===================================
+// Post and Project Styles
+// ===================================
+
+// Shared styles
 .post, .project {
   margin-bottom: $global-margin * 2;
 
@@ -25,9 +30,9 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    padding-top: $global-margin;
+    padding-top: $border-padding;
     color: palette(highlight);
-    border-top: 1px solid rgba(palette(primary), 0.25);
+    border-top: $border-thickness solid $border-color;
 
     > * {
       flex: 1;
@@ -35,6 +40,15 @@
   }
 }
 
+// Post only
 .next-post {
   text-align: right;
+}
+
+// Project only
+.project {
+
+  &__body {
+    border-top: $border-thickness solid $border-color;
+  }
 }
