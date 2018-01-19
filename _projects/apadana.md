@@ -3,7 +3,9 @@ title: Legends of the Buddhist Saints
 image: apadana_1.png
 year: 2017–18
 summary: I led the creation of an interactive, open-access digital publication for the first-ever translation of the Apadāna into English.
-external_link: http://beta.apadanatranslation.org/
+external_link:
+  url: http://beta.apadanatranslation.org/
+  title: View Project Website
 order: 1
 ---
 
