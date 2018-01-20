@@ -15,3 +15,8 @@ main,
 footer {
   @extend %container;
 }
+
+footer {
+  padding-top: $border-padding * 1.5;
+  border-top: $border-thickness solid $border-color;
+}

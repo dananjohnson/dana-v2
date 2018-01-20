@@ -6,6 +6,10 @@
 
   a:not(.index__link) {
     @include reset-link;
+
+    &:hover {
+      @include text-link($color: palette(primary), $hover: palette(primary), $offset: 4px);
+    }
   }
 
   .post {

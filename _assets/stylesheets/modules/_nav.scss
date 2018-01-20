@@ -1,6 +1,14 @@
 nav, .nav {
   font-weight: 700;
 
+  a {
+    @include reset-link;
+
+    &:hover {
+      @include text-link($color: palette(primary), $hover: palette(primary), $offset: 4px);
+    }
+  }
+
   ul {
     margin-bottom: $global-margin / 2;
     padding-left: 0;
@@ -29,6 +37,10 @@ nav, .nav {
 
     a {
       color: palette(highlight);
+
+      &:hover {
+        @include text-link($color: palette(highlight), $hover: palette(highlight), $offset: 4px);
+      }
     }
   }
 }
