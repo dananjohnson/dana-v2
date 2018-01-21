@@ -3,5 +3,5 @@
   {% if project.year %}<span class="project__meta">{{ project.year }}</span>{% endif %}
   {% if project.summary %}<p class="project__summary">{{ project.summary }}</p>{% endif %}
   <a href="{{ project.url }}" title="{{ project.title }}" class="index__link">View project</a>
-  {% img '{{ project.image }}' alt:'{{ project.title }}' class:'project__feat-img' width:'650px' height:'426px' %}
+  {% img '{{ project.image }}' alt:'{{ project.title }}' class:'project__feat-img' %}
 </header>
