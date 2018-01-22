@@ -19,20 +19,30 @@ $link-color: palette(highlight);
 // ===================================
 
 $root-font-family: "source-sans-pro", Helvetica, sans-serif;
-$root-font-size: 14px;
+$root-font-size: 15px;
 $root-line-height: 1.55;
+
+$header-font-family: "jaf-lapture-display", serif;
 
 $mono-font-family: "source-code-pro", monospace;
 
-$medium-font-size: 16px;
-$x-large-font-size: 18px;
+$medium-font-size: 17px;
+$large-font-size: 19px;
 
 // ===================================
 // Links
 // ===================================
-$link-offset: 2px;
+$link-offset: 4px;
 $link-underline-opacity: 0.6;
 $link-underline-hover-opacity: 0.8;
+
+%link {
+  @include text-link($color: palette(primary), $hover: palette(primary), $offset: $link-offset);
+}
+
+%link--highlight {
+  @include text-link($color: palette(highlight), $hover: palette(highlight), $offset: $link-offset);
+}
 
 // ===================================
 // Layout
@@ -50,8 +60,5 @@ $border-padding: $global-margin;
 // ===================================
 // Breakpoints
 // ===================================
-$medium: 44em;
-$medium-large: 55em;
+$medium: 40em;
 $large: 70em;
-$x-large: 80em;
-$small-only: 0 $medium;

@@ -5,7 +5,7 @@ nav, .nav {
     @include reset-link;
 
     &:hover {
-      @include text-link($color: palette(primary), $hover: palette(primary), $offset: 4px);
+      @extend %link;
     }
   }
 
@@ -39,7 +39,7 @@ nav, .nav {
       color: palette(highlight);
 
       &:hover {
-        @include text-link($color: palette(highlight), $hover: palette(highlight), $offset: 4px);
+        @extend %link--highlight;
       }
     }
   }

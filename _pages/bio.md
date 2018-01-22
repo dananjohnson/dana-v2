@@ -4,10 +4,8 @@ title: Bio
 permalink: /about/
 ---
 
-{:.lead}
 {{ site.description }}
 
-{:.lead}
 You can also find me on {% for item in site.data.links.social %}{% if forloop.last %}and {% endif %}[{{ item.title }}]({{ item.url }} "Dana Johnson on {{ item.title }}"){% unless forloop.last %}, {% endunless %}{% endfor %}.
 
 ---

@@ -51,7 +51,7 @@ defaults:
       layout: project
 
 # Custom vars
-version:             0.0.1
+version:             1.0.0
 
 # Jekyll configuration
 markdown: kramdown
@@ -84,7 +84,7 @@ plugins:
   - jekyll-sitemap
 
 # Plugin: Jekyll Pagination
-paginate: 2
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Plugin: Jekyll Assets
