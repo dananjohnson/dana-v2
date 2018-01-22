@@ -9,7 +9,7 @@ external_link:
 order: 2
 ---
 
-{% img 'bread-formula-log.png' alt:'The bread formula repository with commit history and branches.' %}
+{% asset 'bread-formula-log.png' alt='The bread formula repository with commit history and branches.' %}
 
 Like probably most home bakers, I have a notebook filled with the bread formulas I’ve developed, tested, tried to preserve, and mostly forgotten about. As much as I love handwritten recipes, I became frustrated trying to track down an old formula, and, most of all, adequately tracking how a formula evolved over time. I know others use spreadsheets for these reasons. I hate spreadsheets.
 
@@ -21,7 +21,7 @@ This [GitHub repository](https://github.com/dananjohnson/bread-formulas) attempt
 
 The recipes that I consider *good enough* — an amorphous, perfectionistic, and excessively subjective classification — are merged into the master branch, and then published on [A Breadbaker’s Notebook](https://github.com/dananjohnson/breadbakers-notebook), a simple, Jekyll-based “cookbook” website.
 
-{% img 'breadbakers-notebook.png' alt:'An example recipe on A Breadbaker’s Notebook.' %}
+{% asset 'breadbakers-notebook.png' alt='An example recipe on A Breadbaker’s Notebook.' %}
 
 I’ve created A Breadbaker’s Notebook as a more user-friendly GUI for the project, an attractive place for good recipes to reside. Think of it as the equanimous facade for the chaotic laboratory. I use [Jekyll](https://jekyllrb.com/) for site generation and [Travis CI](https://travis-ci.org/) for continuous deployment, and the recipe formatting employs structured data to maximize readability to search engines and other third parties.
 

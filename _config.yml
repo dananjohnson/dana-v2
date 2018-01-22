@@ -81,18 +81,11 @@ exclude:
 plugins:
   - jekyll-assets
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Plugin: Jekyll Pagination
 paginate: 2
 paginate_path: "/blog/page:num/"
 
 # Plugin: Jekyll Assets
-assets:
-  prefix: "/assets"
-  autoprefixer:
-    browsers:
-      - "last 2 versions"
-      - "IE > 9"
-  assets:
-    - "*.png"
-    - "bundle.css"
+# assets:

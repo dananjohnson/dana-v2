@@ -6,6 +6,6 @@ summary: A handful of covers I’ve designed over the years.
 order: 4
 ---
 
-{% img 'disguise-of-language.jpg' alt:'The Disguise of Language' %}
-{% img 'sutra.jpg' alt:'This is Not a Sutra' %}
-{% img 'chokuyaku-fukano.jpg' alt:'Chokuyaku Fukano' %}
+{% asset 'disguise-of-language.jpg' alt='The Disguise of Language' %}
+{% asset 'sutra.jpg' alt='This is Not a Sutra' %}
+{% asset 'chokuyaku-fukano.jpg' alt='Chokuyaku Fukano' %}
