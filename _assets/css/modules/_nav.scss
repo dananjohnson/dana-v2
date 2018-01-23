@@ -28,8 +28,11 @@ nav, .nav {
   &--site {
 
     footer & {
-      margin-right: $global-margin;
-      float: left;
+
+      @include breakpoint($medium) {
+        float: left;
+        margin-right: $global-margin;
+      }
     }
   }
 
