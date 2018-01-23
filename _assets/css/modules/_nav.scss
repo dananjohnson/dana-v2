@@ -1,11 +1,11 @@
 nav, .nav {
   font-weight: 700;
 
-  a {
-    @include reset-link;
+  a:not(:hover) { // only use @mixin text-link on hover
+    background-image: none;
 
-    &:hover {
-      @extend %link;
+    .no-cssgradients & {
+      text-decoration: none;
     }
   }
 

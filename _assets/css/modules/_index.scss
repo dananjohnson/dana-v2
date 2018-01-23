@@ -5,10 +5,13 @@
 .index {
 
   a:not(.index__link) {
-    @include reset-link;
 
-    &:hover {
-      @extend %link;
+    &:not(:hover) { // only use @mixin text-link on hover
+      background-image: none;
+
+      .no-cssgradients & {
+        text-decoration: none;
+      }
     }
   }
 
