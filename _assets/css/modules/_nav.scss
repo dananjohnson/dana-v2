@@ -1,7 +1,7 @@
 nav, .nav {
   font-weight: 700;
 
-  a:not(:hover) { // only use @mixin text-link on hover
+  a:not(:hover):not(:focus) { // only use @mixin text-link on hover
     background-image: none;
 
     .no-cssgradients & {

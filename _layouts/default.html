@@ -4,10 +4,10 @@
   {% include head.html %}
 
   <body>
-
+    <a class="hidden" href="#main">Skip to main content</a>
     <div class="content">
       {% include site__header.html %}
-      <main role="main">
+      <main id="#main" role="main">
         {{ content }}
       </main>
       {% include site__footer.html %}

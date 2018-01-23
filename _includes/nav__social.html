@@ -1,8 +1,8 @@
-<nav id="social-links" class="nav nav--social">
+<nav id="social-links" class="nav nav--social" role="navigation">
   <ul>
     {% for item in site.data.links.social %}
     <li>
-      <a href="{{ item.url }}" title="{{ site.title | append: " on "}}{{ item.title }}" class="{{ class }}">{{ item.title }}</a>
+      <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
     {% endfor %}
   </ul>

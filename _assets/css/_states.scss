@@ -3,9 +3,18 @@
 // ===================================
 
 .active {
-  color: palette(highlight);
+  @extend %link;
 }
 
 .inactive {
   color: rgba(palette(primary), 0.25);
+}
+
+.hidden  {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border: none;
+  overflow: hidden;
 }

@@ -6,7 +6,7 @@
 
   a:not(.index__link) {
 
-    &:not(:hover) { // only use @mixin text-link on hover
+    &:not(:hover):not(:focus) { // only use @mixin text-link on hover
       background-image: none;
 
       .no-cssgradients & {

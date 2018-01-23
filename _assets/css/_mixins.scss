@@ -51,7 +51,7 @@
     cursor: pointer;
 
     @if $hover != false {
-        &:hover {
+        &:hover, &:focus {
             background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%, rgba($hover, $hover-opacity) 50%);
             color: $hover;
         }
@@ -65,14 +65,14 @@
 // remove text link style
 @mixin reset-link($hard-reset: false) {
     @if $hard-reset == false {
-        &, &:hover {
+        &, &:hover, &:focus {
             background-image: none;
         }
         .no-cssgradients & {
             text-decoration: none;
         }
     } @else {
-        &, &:hover {
+        &, &:hover, &:focus {
             background-image: none !important;
         }
         .no-cssgradients & {
