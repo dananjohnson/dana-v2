@@ -14,6 +14,13 @@
   }
 
   &_text {
+    // longer notes don’t use <p>, so we move margins to parent element
+    margin-top: 0.65rem;
+    margin-bottom: 1.3rem;
+
+    p {
+      margin: 0;
+    }
   }
 
   &_time {
