@@ -19,19 +19,15 @@
  },
  "publisher":{
     "@type":"Organization",
-    "name":"{{ site.author.name }}"
-    // TODO add logo
-    // "logo": {
-    // "@type": "ImageObject",
-    // "contentUrl": "https://pauldambra.github.io/images/logo.png",
-    //   "url": "https://pauldambra.github.io"
-    // }
+    "name":"{{ site.author.name }}",
+    "logo": {
+      "@type":"ImageObject",
+      "url":"{{ site.url }}{{ assets["logo.png"].digest_path }}"
+    }
  },
  "image":{
     "@type":"ImageObject",
-    "url":"{{ site.url }}/assets/{{ include.image }}",
-    "height":"650",
-    "width":"375"
+    "url":"{{ site.url }}/assets/{{ include.image }}"
  },
  "mainEntityOfPage":{
     "@type":"WebPage",
