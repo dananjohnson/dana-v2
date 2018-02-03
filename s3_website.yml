@@ -1,7 +1,6 @@
 s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: danajohnson.co
-cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
 
 site: _site/
 
@@ -18,3 +17,15 @@ gzip: true
 s3_endpoint: us-west-2
 
 s3_reduced_redundancy: true
+
+cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
+
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: <%= 60 * 60 * 24 %>
+  aliases:
+    quantity: 1
+    items:
+      CNAME: danajohnson.co
+
+cloudfront_wildcard_invalidation: true
