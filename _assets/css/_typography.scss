@@ -50,6 +50,10 @@ code {
   font-family: $mono-font-family;
 }
 
+abbr {
+  font-feature-settings: "c2sc", "smcp";
+}
+
 strong {
 }
 

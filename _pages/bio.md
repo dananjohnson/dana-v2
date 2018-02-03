@@ -32,7 +32,7 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ---
 
 ## Skills
-* Responsive, accessible front-end development with HTML5, CSS3, SASS, JS
+* Responsive, accessible front-end development with HTML, CSS, SASS, JS
 * plain text encoding in Markdown & YAML
 * templating in Liquid & PHP
 * versioning and collaboration with Git
@@ -53,3 +53,17 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 
 ## Colophon
 This site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liquid, HTML, and CSS. The text is set in Tim Ahren’s [JAF Lapture Display](https://justanotherfoundry.com/lapture) and Paul D. Hunt’s [Source Sans](https://typekit.com/fonts/source-sans). You can view the site repository on [Github]({{ site.repository }}).
+
+*[M.A.]:
+*[B.A.]:
+*[HTML]:
+*[CSS]:
+*[SASS]:
+*[JS]:
+*[YAML]:
+*[PHP]:
+*[XML]:
+*[XSLT]:
+*[CC]:
+*[JAF]:
+*[UT]:

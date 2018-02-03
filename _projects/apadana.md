@@ -22,7 +22,7 @@ As of November 2017, the project is in beta testing.
 
 A priority of Dr. Walters’, in conjunction with releasing the publication open-access, was to limit barriers of entry based on prior knowledge of Buddhism or Pāli. Scholars, teachers, students, purveyors of poetry, practicing Buddhists, and casual readers alike should be able to engage with the text at their desired level. To this end, Dr. Walters envisioned offering two versions of the text, one with just the text of the translation, and the other with all the essential aspects that a scholarly translation includes: diacritics, footnotes, and verse numbers referencing the source text. In fact, for a long time he was maintaining two .doc files to make this possible.
 
-When I came onboard, I felt strongly that the dual-manuscript solution was not sustainable, and could lead to problems maintaining a stable repository in the future. Not only that, but it wasn’t necessary. I wrote a `javascript` function that uses `grep` to identify the “scholarly” components of the text and apply an tag them with an `HTML` tag that can then be toggled on and off in the user interface. (I’ll write more about this in a blog post.) This has tremendous benefit to both reader and author. On Dr. Walters’ end, he need only maintain one copy of the text. And for the user, she can choose the level of reading she is comfortable with, or try out features she may not be familiar with yet.
+When I came onboard, I felt strongly that the dual-manuscript solution was not sustainable, and could lead to problems maintaining a stable repository in the future. Not only that, but it wasn’t necessary. I wrote a JavaScript function that uses `grep` to identify the “scholarly” components of the text and apply an tag them with an HTML tag that can then be toggled on and off in the user interface. (I’ll write more about this in a blog post.) This has tremendous benefit to both reader and author. On Dr. Walters’ end, he need only maintain one copy of the text. And for the user, she can choose the level of reading she is comfortable with, or try out features she may not be familiar with yet.
 
 {% asset 'apadana_2.png' alt='Screenshot of Legends of the Buddhist Saints website.' %}
 
@@ -46,3 +46,9 @@ The result is a stable, portable, accessible publication of an important work of
 
 ### Future plans
 Plans for further development of the project center around enriching the text with multimedia and deepening resources for understanding the *Apadāna*. The first enhancement will be to make available audio recordings to show the cadence and rhythm of the metered poetry. In the spirit of the text — about a community of beings moving towards enlightenment together — the plan is for 600+ members of the Whitman College community to each record one poem. We also plan to compile a visual glossary of flora and fauna and other textual references that may be unfamiliar to the reader.
+
+*[B.C.E.]:
+*[HTML]:
+*[PDF]:
+*[CC-BY-NC-SA]:
+*[CI]:

@@ -11,3 +11,8 @@ And I learned so much. Git, A11y, Sass, Markdown, Liquid, and Jekyll. I’ve bec
 During this time, my interests have also crystallized. At one point, I was working towards a PhD and studying Sanskrit and Hindi. A few years in, my interest in entering academia waned, and my curiosity about design and coding began to bud. While I ended up leaving the PhD track, I always felt that I wanted to find a way to re-engage in scholarship and pedagogy in the capacity of a digital specialist. Over the past four years, I’ve worked as an editor and web manager at an [arts publication](http://artinprint.org/), and then as a freelance designer and developer, building the necessary skills and experience. The [Apadāna project]({{ site.baseurl }}{% link _projects/apadana.md %}) epitomizes the type of work I’d like to continue doing: open access, open source, critical, novel, humanistic. I’m eager to continue working in this liminal space between technology and the humanities, and to encounter like minds along the way.
 
 This new website is a reflection of my current values, interests, and skills. It’s built on Markdown and Jekyll. In addition to showcasing some of my work, I’ve added a [blog]({{ site.baseurl }}{% link blog/index.html %}). I’m also crossposting brief [notes]({{ site.baseurl }}{% link _pages/notes.md %}) from [Micro.blog](https://micro.blog/). Feel free to check out the [repository on Github](https://github.com/dananjohnson/dana-v2). And don’t be a stranger! [Get in touch](mailto:dana@danajohnson.co) if you have a question, comment, or idea for a collaboration.
+
+*[HTML]:
+*[CSS]:
+*[JS]:
+*[PHP]:

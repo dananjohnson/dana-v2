@@ -26,3 +26,8 @@ The recipes that I consider *good enough* — an amorphous, perfectionistic,
 I’ve created A Breadbaker’s Notebook as a more user-friendly GUI for the project, an attractive place for good recipes to reside. Think of it as the equanimous facade for the chaotic laboratory. I use [Jekyll](https://jekyllrb.com/) for site generation and [Travis CI](https://travis-ci.org/) for continuous deployment, and the recipe formatting employs structured data to maximize readability to search engines and other third parties.
 
 Both the website code and the recipes are released under the MIT license, and, like a well-fed sourdough starter, are undergoing continuous development.
+
+*[YAML]:
+*[GUI]:
+*[MIT]:
+*[CI]:
