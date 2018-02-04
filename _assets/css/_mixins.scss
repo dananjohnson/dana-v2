@@ -31,52 +31,65 @@
     @return map-get($palettes, $color);
 };
 
-// =====================================================
-// ------------- Megatype text link mixin --------------
-// =====================================================
-// @author Thomas Bredin-Grey <tom@studiothick.com>
-// Megatype: https://github.com/StudioThick/megatype
-// =====================================================
+// =============================================================================
+// Sassy Link Underlines
+// https://codepen.io/jimmynotjim/pen/EabQjV
+// Usage: @include link-underline($color-background, $color-text, $color-selection);
+// =============================================================================
 
-// better text decoration
-@mixin text-link($color: $link-color, $hover: $color, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity) {
-
-    color: $color;
-    text-decoration: none;
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%, rgba($color, $opacity) 50%);
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-    background-position: 0 1.05em;
-    background-position: 0 calc(43% + 0.44em + #{$offset});
-    cursor: pointer;
-
-    @if $hover != false {
-        &:hover, &:focus {
-            background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%, rgba($hover, $hover-opacity) 50%);
-            color: $hover;
-        }
-    }
-
-    .no-cssgradients & {
-        text-decoration: underline; // for browsers with no cssgradient support
-    }
+@mixin text-underline-crop($background) {
+  text-shadow:  .03em 0 $background,
+                -.03em 0 $background,
+                0 .03em $background,
+                0 -.03em $background,
+                .06em 0 $background,
+                -.06em 0 $background,
+                .09em 0 $background,
+                -.09em 0 $background,
+                .12em 0 $background,
+                -.12em 0 $background,
+                .15em 0 $background,
+                -.15em 0 $background;
 }
 
-// remove text link style
-@mixin reset-link($hard-reset: false) {
-    @if $hard-reset == false {
-        &, &:hover, &:focus {
-            background-image: none;
-        }
-        .no-cssgradients & {
-            text-decoration: none;
-        }
-    } @else {
-        &, &:hover, &:focus {
-            background-image: none !important;
-        }
-        .no-cssgradients & {
-            text-decoration: none !important;
-        }
-    }
+@mixin text-underline($color-bg, $color-text) {
+  background-image: linear-gradient($color-text, $color-text);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 95%;
+}
+
+@mixin text-selection($selection) {
+  &::selection {
+    @include text-underline-crop($selection);
+
+    background: $selection;
+  }
+
+  &::-moz-selection {
+    @include text-underline-crop($selection);
+
+    background: $selection;
+  }
+}
+
+@mixin link-underline($background, $text, $selection){
+  @include text-underline-crop($background);
+  @include text-underline($background, $text);
+  @include text-selection($selection);
+
+  color: $text;
+  text-decoration: none;
+
+  *,
+  *:after,
+  &:after,
+  *:before,
+  &:before {
+    text-shadow: none;
+  }
+
+  &:visited {
+    color: $text;
+  }
 }

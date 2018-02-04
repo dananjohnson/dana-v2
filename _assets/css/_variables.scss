@@ -44,11 +44,7 @@ $link-underline-opacity: 0.8;
 $link-underline-hover-opacity: 0.8;
 
 %link {
-  @include text-link($color: palette(primary), $hover: palette(primary), $offset: $link-offset);
-}
-
-%link--highlight {
-  @include text-link($color: palette(highlight), $hover: palette(highlight), $offset: $link-offset);
+  @include link-underline($body-bg, $body-color, $link-color);
 }
 
 // ===================================
