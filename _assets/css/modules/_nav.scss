@@ -41,6 +41,7 @@ nav, .nav {
 
     a {
       color: palette(highlight);
+      font-weight: 300;
 
       &:hover {
         @extend %link--highlight;

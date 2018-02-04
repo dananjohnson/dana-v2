@@ -4,8 +4,9 @@
 
 $palettes: (
     primary:         #414021,
-    secondary:       #D6D6D1,
-    highlight:       #FFFFFF
+    secondary:       #FFFFFF,
+    highlight:       #414021,
+    code-bg:         #ECECEC
 );
 
 $site-color-names: map-keys($palettes);
@@ -31,7 +32,7 @@ $large-font-size: 20px;
 
 %meta {
   color: palette(highlight);
-  font-weight: 700;
+  font-weight: 300;
   font-family: $header-alt-font-family;
 }
 

@@ -31,9 +31,14 @@
     padding-top: $border-padding;
     color: palette(highlight);
     border-top: $border-thickness solid $border-color;
+    font-weight: 300;
 
     > * {
       flex: 1;
+    }
+
+    a {
+      font-weight: 700;
     }
   }
 }
