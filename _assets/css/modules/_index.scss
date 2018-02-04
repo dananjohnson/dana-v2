@@ -24,6 +24,11 @@
     border-bottom: $border-thickness solid $border-color;
   }
 
+  .post__title,
+  .project__title {
+    margin: 0 $global-margin / 4 0 0;
+  }
+
   &__title {
     margin-bottom: $global-margin;
   }

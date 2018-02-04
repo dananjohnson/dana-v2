@@ -32,6 +32,7 @@ h2 {
 
 h3 {
   font-size: 1.44rem;
+  font-family: $header-alt-font-family;
 }
 
 h4 {
@@ -40,6 +41,7 @@ h4 {
 
 p {
   margin-bottom: 1.3rem;
+  font-feature-settings: "onum";
 }
 
 small {
@@ -47,6 +49,11 @@ small {
 }
 
 code {
+  padding: 0.15rem 0.3rem;
+  color: palette(highlight);
+  background-color: palette(primary);
+  border-radius: 0.1rem;
+  font-size: 0.833rem;
   font-family: $mono-font-family;
 }
 

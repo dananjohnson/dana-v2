@@ -1,5 +1,6 @@
 nav, .nav {
   font-weight: 700;
+  font-family: $header-alt-font-family;
 
   a:not(:hover):not(:focus) { // only use @mixin text-link on hover
     background-image: none;

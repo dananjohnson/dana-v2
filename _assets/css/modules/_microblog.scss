@@ -25,7 +25,6 @@
 
   &_time {
     order: -1;
-    color: palette(highlight);
-    font-weight: 700;
+    @extend %meta;
   }
 }
