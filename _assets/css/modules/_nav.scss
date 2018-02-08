@@ -1,8 +1,8 @@
 nav, .nav {
   font-weight: 700;
-  font-family: $header-alt-font-family;
+  // font-family: $header-alt-font-family;
 
-  a:not(:hover):not(:focus) { // only use @mixin text-link on hover
+  a:not(:hover):not(:focus):not(.active) { // only use @mixin text-link on hover
     background-image: none;
 
     .no-cssgradients & {
@@ -11,7 +11,7 @@ nav, .nav {
   }
 
   ul {
-    margin-bottom: $global-margin / 2;
+    margin-bottom: 0;
     padding-left: 0;
     list-style-type: none;
   }
@@ -28,12 +28,9 @@ nav, .nav {
 .nav {
   &--site {
 
-    footer & {
-
-      @include breakpoint($medium) {
-        float: left;
-        margin-right: $global-margin;
-      }
+    @include breakpoint($medium) {
+      float: left;
+      margin-right: $global-margin;
     }
   }
 

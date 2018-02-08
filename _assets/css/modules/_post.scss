@@ -6,51 +6,35 @@
 .post, .project {
   margin-bottom: $global-margin * 2;
 
-  &__header {
-  }
-
   &__title {
-    display: inline-block;
-    margin: 0 $global-margin / 4 0 0;
+    display: inline;
     font-size: 1rem;
     font-style: normal;
-    font-family: $header-alt-font-family;
-    margin-bottom: 0.65rem;
   }
 
   &__meta {
     @extend %meta;
   }
 
-  &__summary {
-  }
-
   &__nav {
     display: flex;
     justify-content: space-between;
     padding-top: $border-padding;
-    color: palette(highlight);
+    font-weight: normal;
+    font-style: italic;
     border-top: $border-thickness solid $border-color;
-    font-weight: 300;
 
     > * {
       flex: 1;
     }
 
     a {
+      font-style: normal;
       font-weight: 700;
     }
-    
+
     .next {
       text-align: right;
     }
-  }
-}
-
-// Project only
-.project {
-
-  &__body {
-    border-top: $border-thickness solid $border-color;
   }
 }

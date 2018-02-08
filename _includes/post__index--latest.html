@@ -1,4 +1,6 @@
-{% comment %}Post loop{% endcomment %}
-{% for post in site.posts limit:10 %}
-{% include post__header.html %}
-{% endfor %}
+<div class="index__body">
+  {% comment %}Post loop{% endcomment %}
+  {% for post in site.posts limit:5 %}
+  {% include post__header.html %}
+  {% endfor %}
+</div>

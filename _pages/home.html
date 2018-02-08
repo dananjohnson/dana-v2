@@ -4,15 +4,12 @@ title: Home
 permalink: /
 ---
 
-<p>{{ site.description }}</p>
-<hr>
 <section class="index">
-  <h2 class="index__title">Blog</h2>
+  <h2 class="index__header">Blog</h2> (<a href="{{ site.baseurl }}{% link blog/index.html %}" class="index__link">View all</a>)
   {% include post__index--latest.html %}
-  <a href="{{ site.baseurl }}{% link blog/index.html %}" class="index__link">View all</a>
 </section>
 <hr>
 <section class="index">
-  <h2 class="index__title">Projects</h2>
+  <h2 class="index__header">Projects</h2>
   {% include project__index.html %}
 </section>

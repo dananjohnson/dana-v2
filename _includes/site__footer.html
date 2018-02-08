@@ -1,6 +1,8 @@
 <footer role="contentinfo">
-  {% include nav__site.html %}
-  {% include nav__social.html %}
-  <p>Site content and code released under the <a href="{{ site.license.url }}" target="_blank"><abbr>{{ site.license.title }}</abbr></a> license by <a href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>.</p>
-  <p>Subscribe to <a href="{{ site.baseurl }}/feed.json">blog</a> or <a href="http://dana.micro.blog/feed.json">notes</a>. View <a href="{{ site.repository }}" target="_blank">site repository</a> on Github.</p>
+  <div class="inner">
+    {% include nav__site.html %}
+    {% include nav__social.html %}
+    <p>Site content and code released under the <a href="{{ site.license.url }}" target="_blank"><abbr>{{ site.license.title }}</abbr></a> license by <a href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>.</p>
+    <p>Subscribe to <a href="{{ site.baseurl }}/feed.json">blog</a> or <a href="http://dana.micro.blog/feed.json">notes</a>. View site repository <a href="{{ site.repository }}" target="_blank">on Github</a>.</p>
+  </div>
 </footer>

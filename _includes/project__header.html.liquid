@@ -1,7 +1,8 @@
 <header class="project__header">
   <h3 class="project__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
   {% if project.year %}<span class="project__meta">{{ project.year }}</span>{% endif %}
+</header>
+<section class="project__body">
   {% if project.summary %}<p class="project__summary">{{ project.summary }}</p>{% endif %}
   <a href="{{ project.url }}" class="index__link">View project</a>
-  {% asset '{{ project.image }}' alt='{{ project.title }}' class='project__feat-img' %}
-</header>
+</section>

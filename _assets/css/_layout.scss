@@ -16,7 +16,36 @@ footer {
   @extend %container;
 }
 
-footer {
+.header--site .inner {
+  padding-bottom: $border-padding;
+  border-bottom: $border-thickness solid $border-color;
+}
+
+footer .inner {
   padding-top: $border-padding * 1.5;
   border-top: $border-thickness solid $border-color;
+}
+
+%flex-columns {
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    align-items: baseline;
+
+    > :first-child {
+      flex: 1;
+      padding-right: $global-margin * 2;
+      text-align: right;
+    }
+
+    > :last-child {
+      flex: 4;
+    }
+  }
+}
+
+.post, .project {
+  @extend %flex-columns;
 }

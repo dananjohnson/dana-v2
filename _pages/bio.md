@@ -32,7 +32,7 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ---
 
 ## Skills
-* Responsive, accessible front-end development with HTML, CSS, SASS, JS
+* Responsive, accessible front-end development with HTML, CSS, Sass, JS
 * plain text encoding in Markdown & YAML
 * templating in Liquid & PHP
 * versioning and collaboration with Git
@@ -52,13 +52,14 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ---
 
 ## Colophon
-This site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liquid, HTML, and CSS. The text is set in Tim Ahren’s [JAF Lapture Display](https://justanotherfoundry.com/lapture) and Paul D. Hunt’s [Source Sans](https://typekit.com/fonts/source-sans). You can view the site repository on [Github]({{ site.repository }}).
+The design of this site is an experiment in achieving rhythm, harmony, hierarchy, and readability through simple variations in typography, color, and layout. It’s inspired by [Dean Allen’s appeal](https://web.archive.org/web/20010409223650/http:/www.textism.com:80/resources/index.html?id=7) to treat words first and foremost as things that we *read*, not just look at. I'm using [Adobe Caslon](https://typekit.com/fonts/adobe-caslon), and occasionally [Source Code Pro](https://typekit.com/fonts/source-code-pro) for code snippets.
+
+The site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liquid, HTML, and Sass. You can find the repository on [Github]({{ site.repository }}).
 
 *[M.A.]:
 *[B.A.]:
 *[HTML]:
 *[CSS]:
-*[SASS]:
 *[JS]:
 *[YAML]:
 *[PHP]:

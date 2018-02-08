@@ -1,11 +1,16 @@
 // ===================================
+// Breakpoints
+// ===================================
+$medium: 40em;
+$large: 70em;
+
+// ===================================
 // Colors
 // ===================================
 
 $palettes: (
-    primary:         #414021,
-    secondary:       #FFFFFF,
-    highlight:       #414021,
+    primary:         #222,
+    secondary:       #FFF,
     code-bg:         #ECECEC
 );
 
@@ -13,36 +18,33 @@ $site-color-names: map-keys($palettes);
 
 $body-color: palette(primary);
 $body-bg: palette(secondary);
-$link-color: palette(highlight);
+$link-color: palette(primary);
 
 // ===================================
 // Typography
 // ===================================
 
-$root-font-family: "freight-text-pro",serif;
-$root-font-size: 16px;
+$root-font-family: "adobe-caslon-pro",serif;
+$root-font-size: 17px;
 $root-line-height: 1.55;
 
-$header-font-family: "freight-micro-pro", serif;
-$header-alt-font-family: "source-sans-pro",sans-serif;
 $mono-font-family: "source-code-pro", monospace;
 
-$medium-font-size: 18px;
-$large-font-size: 20px;
+$medium-font-size: 19px;
+$large-font-size: 21px;
 
 %meta {
-  color: palette(highlight);
-  font-weight: 300;
-  font-family: $header-alt-font-family;
+  margin: 0 0 0 0.25rem;
+  font-style: italic;
+
+  @include breakpoint($medium) {
+    display: block;
+  }
 }
 
 // ===================================
 // Links
 // ===================================
-$link-offset: 4px;
-$link-underline-opacity: 0.8;
-$link-underline-hover-opacity: 0.8;
-
 %link {
   @include link-underline($body-bg, $body-color, $link-color);
 }
@@ -50,7 +52,7 @@ $link-underline-hover-opacity: 0.8;
 // ===================================
 // Layout
 // ===================================
-$container-width: 37.5rem;
+$container-width: 38rem;
 $global-margin: 1rem;
 
 // ===================================
@@ -59,9 +61,3 @@ $global-margin: 1rem;
 $border-thickness: 1px;
 $border-color: rgba(palette(primary), 0.25);
 $border-padding: $global-margin;
-
-// ===================================
-// Breakpoints
-// ===================================
-$medium: 40em;
-$large: 70em;

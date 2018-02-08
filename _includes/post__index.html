@@ -1,6 +1,7 @@
-{% comment %}Post loop{% endcomment %}
-{% for post in paginator.posts %}
-{% include post__header.html %}
+<div class="index__body">
+  {% comment %}Post loop{% endcomment %}
+  {% for post in paginator.posts %}
+  {% include post__header.html %}
 {% endfor %}
-
+</div>
 {% include post__pagination.html %}

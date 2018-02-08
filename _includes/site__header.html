@@ -1,5 +1,7 @@
-<header class="header header--site" role="main">
-  {% include nav__social.html %}
-  <a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
-  {% include nav__site.html %}
+<header class="header header--site" role="banner">
+  <div class="inner">
+    <a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
+    {% include nav__site.html %}
+    {% include nav__social.html %}
+  </div>
 </header>
