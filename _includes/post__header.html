@@ -4,7 +4,7 @@
     <span class="post__meta post__date">{{ post.date | date: "%B %d, %Y" }}</span>
   </header>
   <section class="post__body">
-    {{ post.excerpt }}
+    <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncate: 250 }}</p>
     <a href="{{ post.url }}" class="index__link">Read more</a>
   </section>
 </article>
