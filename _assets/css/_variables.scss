@@ -24,14 +24,14 @@ $link-color: palette(primary);
 // Typography
 // ===================================
 
-$root-font-family: "adobe-caslon-pro",serif;
-$root-font-size: 17px;
-$root-line-height: 1.55;
+$root-font-family: "garamond-premier-pro", "Book Antiqua", serif;
+$root-font-size: 18px;
+$root-line-height: 1.45;
 
 $mono-font-family: "source-code-pro", monospace;
 
-$medium-font-size: 19px;
-$large-font-size: 21px;
+$medium-font-size: 20px;
+$large-font-size: 22px;
 
 %meta {
   margin: 0 0 0 0.25rem;
@@ -52,7 +52,7 @@ $large-font-size: 21px;
 // ===================================
 // Layout
 // ===================================
-$container-width: 38rem;
+$container-width: 36rem;
 $global-margin: 1rem;
 
 // ===================================
