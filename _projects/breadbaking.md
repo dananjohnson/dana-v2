@@ -15,13 +15,13 @@ I began thinking about the potential of Git’s versioning and archiving power a
 
 My formulas don't develop linearly. While there may be a “master” version, ingredients, quantities, and methods change from bake to bake without necessarily replacing the previous version of the recipe. Some turn into new recipes, others dead ends, while still others become alternatives — riffs on a theme.
 
-{% asset 'bread-formula-log.png' alt='The bread formula repository with commit history and branches.' %}
+{% include responsive-img.html.liquid src="bread-formula-log.png" alt="The bread formula repository with commit history and branches" %}
 
 This [GitHub repository](https://github.com/dananjohnson/bread-formulas) attempts to document the riverine development of these formulas. Recipe experimentation and evolution are tracked in branches, one branch per recipe. All recipes are at some stage of development; some are close but need minor tweaking, others may be disasters. If I make a second attempt at a recipe, I track that attempt on a new branch; if it’s successful, I merge it into the main branch for that recipe; if not; it simply stays put, but preserved.
 
 The recipes that I consider *good enough* — an amorphous, perfectionistic, and excessively subjective classification — are merged into the master branch, and then published on [A Breadbaker’s Notebook](https://github.com/dananjohnson/breadbakers-notebook), a simple, Jekyll-based “cookbook” website.
 
-{% asset 'breadbakers-notebook.png' alt='An example recipe on A Breadbaker’s Notebook.' %}
+{% include responsive-img.html.liquid src="breadbakers-notebook.png" alt="An example recipe on A Breadbaker’s Notebook" %}
 
 I’ve created A Breadbaker’s Notebook as a more user-friendly GUI for the project, an attractive place for good recipes to reside. Think of it as the equanimous facade for the chaotic laboratory. I use [Jekyll](https://jekyllrb.com/) for site generation and [Travis CI](https://travis-ci.org/) for continuous deployment, and the recipe formatting employs structured data to maximize readability to search engines and other third parties.
 
