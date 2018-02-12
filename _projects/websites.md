@@ -6,7 +6,7 @@ summary: A selection of other websites that I’ve worked on over the years.
 order: 4
 ---
 
-**[Sloop Creative](http://www.sloopcreative.com/)**: the creative studio I run with Moeko Crider. Designed by Moeko and built by yours truly.
+**[Sloop Creative](http://www.sloopcreative.com/)**: the creative studio I run with Moeko Crider. Designed by Moeko and built by me on [Middleman](https://middlemanapp.com/).
 
 **[Sloop Creative 2018 update](http://www.sloopcreative.com/design-for-2018/)**: we launched this page with a fresh look focusing on our work with non-profits and other community groups.
 
