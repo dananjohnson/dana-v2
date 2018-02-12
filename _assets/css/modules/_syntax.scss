@@ -4,7 +4,19 @@
 // https://github.com/mojombo/tpw/blob/master/css/syntax.css
 // =============================================================================
 
-.highlight  { background: #ffffff; }
+.highlight  {
+  margin: $global-margin 0;
+  padding: $global-margin;
+  background-color: palette(code-bg);
+
+  pre {
+    margin: 0;
+  }
+
+  code {
+    padding: 0;
+  }
+}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
