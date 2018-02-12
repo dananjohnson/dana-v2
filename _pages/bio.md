@@ -68,3 +68,4 @@ The site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liqui
 *[CC]:
 *[JAF]:
 *[UT]:
+*[FRIDA]:

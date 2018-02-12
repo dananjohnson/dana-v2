@@ -3,7 +3,7 @@ title: Other Websites
 image:
 year: 2013–
 summary: A selection of other websites that I’ve worked on over the years.
-order: 3
+order: 4
 ---
 
 **[Sloop Creative](http://www.sloopcreative.com/)**: the creative studio I run with Moeko Crider. Designed by Moeko and built by yours truly.

@@ -3,7 +3,7 @@ title: Book Covers
 image: disguise-of-language.jpg
 year: 2015–
 summary: A handful of book covers I’ve designed over the years.
-order: 5
+order: 6
 ---
 
 A handful of book covers I’ve designed over the years.
