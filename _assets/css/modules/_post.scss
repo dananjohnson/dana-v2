@@ -16,6 +16,11 @@
     @extend %meta;
   }
 
+  &__link {
+    margin-left: $global-margin / 4;
+    white-space: nowrap;
+  }
+
   &__nav {
     display: flex;
     justify-content: space-between;
