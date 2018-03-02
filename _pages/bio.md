@@ -32,17 +32,30 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ---
 
 ## Skills
-* Responsive, accessible front-end development with HTML, CSS, Sass, JS
-* plain text encoding in Markdown & YAML
-* templating in Liquid & PHP
-* versioning and collaboration with Git
-* XML/XSLT
-* Adobe CC (InDesign, Photoshop, Illustrator)
-* Sketch
-* Always learning. Currently hitting the books on:
-  * JavaScript frameworks
-  * LaTeX
-  * Ruby on Rails
+
+### Markup & Programming Languages
+HTML, CSS, Sass, Markdown, HAML, XML, XSLT; JavaScript/jQuery, PHP, Liquid
+
+### Frameworks/CMS
+Jekyll, WordPress
+
+### Other Development Skills
+A11y, version control with Git & Github, BEM methodology, Continuous Integration
+
+### Design
+*Web:* wireframing, high-fidelity mockups, living style guides; *Print:* long documents, marketing materials, InDesign templates, proofing
+
+### Applications
+Sketch, Adobe Creative Cloud (Ai, Id, Ps, Lightroom), Vagrant, Oxygen XML, Trello, Slack
+
+### Natural Languages
+English: native; Hindi, Sanskrit, Pali: intermediate
+
+### Other
+Copyediting
+
+### Always Learning…
+Currently hitting the books on: prototyping, React, LaTeX
 
 ---
 
@@ -52,19 +65,22 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ---
 
 ## Colophon
-The design of this site is an experiment in achieving rhythm, harmony, hierarchy, and readability through simple variations in typography, color, and layout. It’s inspired by [Dean Allen’s appeal](https://web.archive.org/web/20010409223650/http:/www.textism.com:80/resources/index.html?id=7) to treat words first and foremost as things that we *read*, not just look at. I'm using [Adobe Caslon](https://typekit.com/fonts/adobe-caslon), and occasionally [Source Code Pro](https://typekit.com/fonts/source-code-pro) for code snippets.
+The design of this site is an experiment in achieving rhythm, harmony, hierarchy, and readability through simple variations in typography and layout. It’s inspired by [Dean Allen’s appeal](https://web.archive.org/web/20010409223650/http:/www.textism.com:80/resources/index.html?id=7) to treat words first and foremost as things that we *read*, not just look at. I'm using [Adobe Caslon](https://typekit.com/fonts/adobe-caslon), and occasionally [Source Code Pro](https://typekit.com/fonts/source-code-pro) for code snippets.
 
 The site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liquid, HTML, and Sass. You can find the repository on [Github]({{ site.repository }}).
 
 *[M.A.]:
 *[B.A.]:
+*[CMS]:
 *[HTML]:
+*[HAML]:
 *[CSS]:
 *[JS]:
 *[YAML]:
 *[PHP]:
 *[XML]:
 *[XSLT]:
+*[BEM]:
 *[CC]:
 *[JAF]:
 *[UT]:
