@@ -1,5 +1,5 @@
 ---
-title: Book Covers
+title: Book covers
 image: disguise-of-language.jpg
 year: 2015–
 summary: A handful of book covers I’ve designed over the years.

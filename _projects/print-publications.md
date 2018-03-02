@@ -1,5 +1,5 @@
 ---
-title: Print Publications
+title: Print publications
 image: frida-awid_field-scan_2.png
 year: 2016–
 summary: I’ve worked with a number of companies, organizations, publishers, and authors over the years to design books, journals, textbooks, and annual reports. These are some of the highlights.

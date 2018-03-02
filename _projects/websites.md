@@ -1,5 +1,5 @@
 ---
-title: Other Websites
+title: Other websites
 image:
 year: 2013–
 summary: A selection of other websites that I’ve worked on over the years.
