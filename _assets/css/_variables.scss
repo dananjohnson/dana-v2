@@ -55,6 +55,12 @@ $large-font-size: 22px;
 $container-width: 36rem;
 $global-margin: 1rem;
 
+// placeholder for child element that expands beyond width of parent (image, .highlight)
+%wide-child {
+  width: 110%;
+  margin-left: -5%;
+}
+
 // ===================================
 // Borders/Rules
 // ===================================
