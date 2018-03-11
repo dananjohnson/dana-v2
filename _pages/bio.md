@@ -34,13 +34,13 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ## Skills
 
 ### Markup & Programming Languages
-HTML, CSS, Sass, Markdown, HAML, XML, XSLT; JavaScript/jQuery, PHP, Liquid
+HTML5, CSS, Sass, Markdown, HAML, XML, XSLT; JavaScript/jQuery, PHP, Liquid
 
 ### Frameworks/CMS
 Jekyll, WordPress
 
 ### Other Development Skills
-A11y, version control with Git & Github, BEM methodology, Continuous Integration
+A11y, Git/Github, npm, Bundler, Gulp, Babel, BEM methodology, Continuous Integration
 
 ### Design
 *Web:* wireframing, high-fidelity mockups, living style guides; *Print:* long documents, marketing materials, InDesign templates, proofing
@@ -73,6 +73,7 @@ The site runs on [Jekyll](https://jekyllrb.com/) and is coded in Markdown, Liqui
 *[B.A.]:
 *[CMS]:
 *[HTML]:
+*[HTML5]:
 *[HAML]:
 *[CSS]:
 *[JS]:
