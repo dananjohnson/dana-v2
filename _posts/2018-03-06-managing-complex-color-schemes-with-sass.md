@@ -2,9 +2,7 @@
 title: Managing complex color schemes with Sass
 ---
 
-Designing for print means having nearly total control over the look of each component. A logical design system is critical to making a product that is comprehendible and pleasing to viewers, and we use InDesign’s paragraph, character, and object styles extensively to achieve this. But working in a static medium means that when the pieces of the design don’t quite fit, they can be tweaked individually to work. Each layout can be fully art-directed.
-
-This isn’t the case when building a report for the Web. (Or at least shouldn’t be — you could, if you really wanted to, bloat your CSS with properties for elements like `#my-one-of-a-kind-div-26` or `.is-four-columns-wide-and-comes-before-an-img-but-not-a-figure`.) Art direction for the Web has come a long way, but frontend development remains fundamentally a practice of defining the rules and letting the chips fall where they may. And that’s fine: it pushes us to think about design modularly, with benefits for maintenance, performance, and design coherence. And for perfectionists like myself, it releases us from endlessly pushing elements around on a page to find the perfect layout.
+Designing for print, as I often do, means having nearly total control over the look of each component. When the pieces of the design don’t quite fit, they can be tweaked individually to work. Each layout can be fully art-directed. This isn’t the case when building Web interfaces. (Or at least shouldn’t be — you could, I suppose, write CSS with properties for elements like `#my-one-of-a-kind-div-26` or `.is-four-columns-wide-and-comes-before-an-img-but-not-a-figure`.) Art direction on the Web has come a long way, but front-end development remains fundamentally a practice of defining the rules and letting the chips fall where they may. And that’s fine: it pushes us to think about design modularly, with benefits for maintenance, performance, and design coherence. And for perfectionists like myself, it releases us from endlessly pushing elements around on a page to find the perfect layout.
 
 ---
 
