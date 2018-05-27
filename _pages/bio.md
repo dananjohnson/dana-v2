@@ -22,7 +22,7 @@ You can also find me on {% for item in site.data.links.social %}{% if forloop.la
 ## Background
 
 ### Professional
-I have been working as a freelance designer and developer for over five years. I spend a lot of my time running [Sloop Creative](http://www.sloopcreative.com/) with my partner, Moeko Crider. We’re a community-minded creative studio located in the beautiful Skagit Valley, Washington. Prior to this, I served as the Managing Editor of [*Art in Print*](http://artinprint.org), the premier American publication on the the artist’s print. I also worked as Assistant Media Coordinator at UT-Austin’s Hindi–Urdu Flagship from 2012–13.
+I’m a Frontend Developer at [Cast Iron Coding](http://castironcoding.com/) in Portland, Oregon. Before that, I did design and development at [Sloop Creative](http://www.sloopcreative.com/), a community-minded creative studio I started with my partner, Moeko Crider. In the past, I also served as the Managing Editor of [*Art in Print*](http://artinprint.org), and worked as Assistant Media Coordinator at UT-Austin’s Hindi–Urdu Flagship from 2012–13.
 
 ### Academic
 I completed my M.A. in Asian Cultures and Languages from The University of Texas at Austin in 2013. There, I worked on the topics of masculinity, asceticism, and medicine in South Asian history; I also studied Sanskrit, Pali, and Hindi. My Master’s Thesis, “Reckoning Up the Body: Logics of Enumeration and Arrangement in Buddhist and Ayurvedic Inventories of Anatomy,” was a deep comparative reading of anatomical inventories in *Visuddhimagga*, *Caraka-saṃhita*, and *Suśruta-saṃhita*. I argued, against the gloss that these accounts are either “religious” or “medical” in nature, that they carve up the materiality of the human body in a constellation of complex and often overlapping ideologies and epistemologies. The thesis was a finalist for the UT-Austin Graduate School’s Outstanding Master’s Thesis Award.
@@ -34,28 +34,25 @@ I earned my B.A. (Religious Studies) from Whitman College in 2008.
 ## Skills
 
 ### Markup & Programming Languages
-HTML5, CSS, Sass, Markdown, HAML, XML, XSLT; JavaScript/jQuery, PHP, Liquid
+HTML, CSS, Sass, Markdown, HAML, XML, XSLT; JavaScript, PHP, Liquid
 
 ### Frameworks/CMS
-Jekyll, WordPress
+Jekyll, WordPress, October
 
 ### Other Development Skills
-A11y, Git/Github, npm, Bundler, Gulp, Babel, BEM methodology, Continuous Integration
+A11y, Git/Github, Webpack, npm, Bundler, Babel, BEM methodology, Continuous Integration
 
 ### Design
 *Web:* wireframing, high-fidelity mockups, living style guides; *Print:* long documents, marketing materials, InDesign templates, proofing
 
 ### Applications
-Sketch, Adobe Creative Cloud (Ai, Id, Ps, Lightroom), Vagrant, Oxygen XML, Trello, Slack
+Sketch, Adobe Creative Cloud (Ai, Id, Ps, Lightroom), Vagrant, Oxygen XML
 
 ### Natural Languages
 English: native; Hindi, Sanskrit, Pali: intermediate
 
 ### Other
 Copyediting
-
-### Always Learning…
-Currently hitting the books on: prototyping, React, LaTeX
 
 ---
 
