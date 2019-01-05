@@ -1,6 +1,6 @@
 # Dana Johnson — Personal Website
 
-A redesign of my personal website based on Jekyll, Jekyll Assets, and Breakpoint.
+My personal website—a static site built on Jekyll and Jekyll Assets.
 
 ## License
 
