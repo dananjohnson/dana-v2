@@ -4,7 +4,7 @@ gem 'autoprefixer-rails'
 gem 'uglifier'
 gem 'mini_magick'
 gem 'image_optim'
-gem 'sprockets', '~> 3.7'
+gem 'sprockets', '~> 4.0.0.beta'
 
 gem 'jekyll'
 
