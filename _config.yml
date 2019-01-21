@@ -7,7 +7,6 @@ baseurl:             ""
 
 # Third party
 repository:          https://github.com/dananjohnson/dana-v2
-microblog:           dana
 typekit:             hhy2otg
 
 # About/contact
@@ -29,7 +28,7 @@ collections:
     permalink:       /projects/:path/
     title:           "Projects"
   notes:
-    output:          false
+    output:          true
     permalink:       /notes/:path/
     title:           "Notes"
 
@@ -53,6 +52,12 @@ defaults:
       type: projects
     values:
       layout: project
+  # Notes
+  - scope:
+      path: _notes
+      type: notes
+    values:
+      layout: note
 
 # Custom vars
 version:             1.0.0

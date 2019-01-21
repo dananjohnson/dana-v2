@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="post post--note" role="article">
+  <header class="post__header">
+    <h2 class="post__title hidden">{{ page.title }}</h2>
+    <time class="post__meta post__date">
+      {{ page.date | date: "%B %e, %Y" }}
+      <br />
+      {{ page.date | date: "%l:%M %P" }}
+    </time>
+  </header>
+  <section class="post__body">
+    {{ content }}
+  </section>
+</article>
+
+{% include post__nav.html type="note" %}
+
+{% include post__structured-data.html.liquid headline=page.title description=page.excerpt content=page.content link=page.url date=page.date %}
