@@ -6,6 +6,10 @@
 .post, .project {
   margin-bottom: $global-margin * 2;
 
+  &--note {
+    margin-bottom: $global-margin;
+  }
+
   &__title {
     display: inline;
     font-size: 1rem;

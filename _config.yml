@@ -28,6 +28,10 @@ collections:
     output:          true
     permalink:       /projects/:path/
     title:           "Projects"
+  notes:
+    output:          false
+    permalink:       /notes/:path/
+    title:           "Notes"
 
 # Front Matter Defaults
 defaults:

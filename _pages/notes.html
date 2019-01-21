@@ -1,0 +1,20 @@
+---
+layout: page
+title: Notes
+permalink: /notes/
+---
+
+{% for note in site.notes reversed %}
+  <article class="post post--note">
+    <header class="post__header">
+      <time class="post__meta post__date">
+        {{ note.date | date: "%B %e, %Y" }}
+        <br />
+        {{ note.date | date: "%l:%M %P" }}
+      </time>
+    </header>
+    <section class="post__body">
+      {{ note.content }}
+    </section>
+  </article>
+{% endfor %}

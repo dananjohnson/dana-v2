@@ -14,3 +14,4 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 .jekyll-cache
+_mdwriter.cson
