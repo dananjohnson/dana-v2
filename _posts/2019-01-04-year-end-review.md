@@ -6,7 +6,7 @@ title: Year-in-Review (2018 Edition)
 * I began working as a frontend developer at [Cast Iron Coding](http://castironcoding.com/).
 * We moved to Portland, Oregon.
 * I helped launch an interactive, open-access digital edition of the first-ever translation of the Buddhist text _Apadāna_ into English.
-* I redesigned my [personal website](http://danajohnson.co/).
+* I redesigned my [personal website]({{ site.url }}).
 
 In May, I left the freelance life to start doing web development full-time. My activity feed on Github captures the change pretty well. (Look at that new work-life balance!)
 
