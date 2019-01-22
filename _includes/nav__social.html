@@ -2,7 +2,14 @@
   <ul>
     {% for item in site.data.links.social %}
     <li>
-      <a href="{{ item.url }}" rel="me">{{ item.title }}</a>
+      <a
+        href="{{ item.url }}"
+        {% if item.url contains "github" or item.url contains "twitter" %}
+          rel="me"
+        {% endif %}
+      >
+        {{ item.title }}
+      </a>
     </li>
     {% endfor %}
   </ul>
