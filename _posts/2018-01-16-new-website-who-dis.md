@@ -2,7 +2,7 @@
 title: New website, who dis?
 ---
 
-I first launched [my personal website](http://danajohnson.co/) two and a half years ago. It was the first website I’d ever created from scratch, and I built it in plain old HTML, CSS, and JS to learn as much as I could about web development. No templates, no databases, no Bootstrap. I’d recently made the commitment to become a full-time freelance designer, and I needed to figure out what the hell I was doing!
+I first launched [my personal website]({{ site.url }}) two and a half years ago. It was the first website I’d ever created from scratch, and I built it in plain old HTML, CSS, and JS to learn as much as I could about web development. No templates, no databases, no Bootstrap. I’d recently made the commitment to become a full-time freelance designer, and I needed to figure out what the hell I was doing!
 
 Fast forward to the start of 2018 and so much has happened since then. I’m still standing as a freelancer, which is an accomplishment in and of itself. Moeko and I started [Sloop Creative](http://www.sloopcreative.com/ "Sloop Creative") in 2016, and have been providing non-profits and small businesses with thoughtful, vibrant design and illustration work since. I designed a bunch of [print publications]({{ site.baseurl }}{% link _projects/print-publications.md %}) and [book covers]({{ site.baseurl }}{% link _projects/book-covers.md %}). I built an open access [online repository]({{ site.baseurl }}{% link _projects/apadana.md %}) for a 2,000-page translation of early Buddhist poetry. I experimented with a novel approach to [documenting recipes for breadbaking]({{ site.baseurl }}{% link _projects/breadbaking.md %}).
 
