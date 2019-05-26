@@ -4,7 +4,11 @@ layout: default
 
 <article class="post post--note" role="article">
   <header class="post__header">
-    <h2 class="post__title hidden">{{ page.title }}</h2>
+    {% if page.title %}
+      <h2 class="post__title hidden">
+        {{ page.title }}
+      </h2>
+    {% endif %}
     <time class="post__meta post__date">
       {{ page.date | date: "%B %e, %Y" }}
       <br />

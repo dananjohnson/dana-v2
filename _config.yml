@@ -8,6 +8,7 @@ baseurl:             ""
 # Third party
 repository:          https://github.com/dananjohnson/dana-v2
 typekit:             hhy2otg
+micropub_endpoint:   https://indiekit-danajohnson-co.herokuapp.com
 
 # About/contact
 author:

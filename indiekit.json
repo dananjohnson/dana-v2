@@ -1,0 +1,12 @@
+{
+  "post-types": [{
+    "type": "note",
+    "name": "Note",
+    "icon": ":memo:",
+    "path": {
+      "template": "_micropub/templates/note.njk",
+      "post": "_notes/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
+      "url": "notes/{{ published | date('yyyy-MM-dd') }}-{{ slug }}/"
+    }
+  }]
+}
